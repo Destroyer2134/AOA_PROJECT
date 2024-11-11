@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4">
+  <diagram name="Page-1" id="NrCJpfxuMmYyC89XqXmt">
+    <mxGraphModel dx="2166" dy="1546" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="009zjus6u_HkQ1jCEVu5-1" value="Press w&lt;div&gt;press s&lt;/div&gt;&lt;div&gt;press a&lt;/div&gt;&lt;div&gt;press d&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-294" y="-424" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-2" value="User Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-294" y="-452" width="115" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-175" y="-377" as="sourcePoint" />
+            <mxPoint x="-6" y="-372" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-5" value="&lt;div&gt;Game Border&lt;/div&gt;&lt;div&gt;Snake Head&lt;/div&gt;&lt;div&gt;Snake Segments&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="6" y="-414" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-6" value="Game Display" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6" y="-442" width="113" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-253" y="-307" as="sourcePoint" />
+            <mxPoint x="-253" y="-268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-9" value="&lt;div&gt;Handle Key Press&lt;/div&gt;&lt;div&gt;Change Snake Direction&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-306" y="-234" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-10" value="Input Handling Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-306" y="-262" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="009zjus6u_HkQ1jCEVu5-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-96" y="-214" as="sourcePoint" />
+            <mxPoint x="-42" y="-180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-51" y="-177" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-12" value="&lt;div&gt;- Check for Collision with Border&lt;/div&gt;&lt;div&gt;- Check for Collision with Food&lt;/div&gt;&lt;div&gt;- Update Snake Segments&lt;/div&gt;&lt;div&gt;- Update Score&lt;/div&gt;&lt;div&gt;- Check for Body Collision&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-43" y="-228" width="156" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-13" value="Game Logic Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-43" y="-256" width="157" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-261" y="-91" as="sourcePoint" />
+            <mxPoint x="-257" y="-61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-15" value="&lt;span class=&quot;hljs-keyword&quot;&gt;Current&lt;/span&gt; Score &amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;High Score&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-312" y="-32" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="009zjus6u_HkQ1jCEVu5-16" value="Data Storage (Score)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-312" y="-60" width="150" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
